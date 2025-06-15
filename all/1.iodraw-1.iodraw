@@ -1,9 +1,60 @@
 <mxfile host="" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="gRVUx1gKZWh_MpUCocSZ">
-    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="607" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-1" value="传感器设备" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="830" y="620" width="142" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-2" value="边缘网关" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="719" width="96" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-3" value="云平台" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="847" y="719" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-4" value="本地SCADA" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="670" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-5" value="云平台" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="769" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-6" value="管理员" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="847" y="818" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-7" value="原始数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.22;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="jIom6HtCgVSKtTCx9QWO-1" target="jIom6HtCgVSKtTCx9QWO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-8" value="控制指令" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="jIom6HtCgVSKtTCx9QWO-3" target="jIom6HtCgVSKtTCx9QWO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-9" value="处理后的数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.11;entryX=0;entryY=0.49;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="jIom6HtCgVSKtTCx9QWO-2" target="jIom6HtCgVSKtTCx9QWO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-10" value="聚合数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0;entryY=0.49;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="jIom6HtCgVSKtTCx9QWO-2" target="jIom6HtCgVSKtTCx9QWO-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="793" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jIom6HtCgVSKtTCx9QWO-11" value="配置命令" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.22;entryY=1;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="jIom6HtCgVSKtTCx9QWO-6" target="jIom6HtCgVSKtTCx9QWO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="843" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
