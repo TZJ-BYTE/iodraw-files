@@ -4,6 +4,96 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-1" value="系统管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="23" y="70" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-2" value="管理网关参数" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="264" y="20" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-3" value="查看设备状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="264" y="119" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-4" value="Modbus设备" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="218" width="147" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-5" value="解析Modbus数据" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="254" y="218" width="149" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-6" value="MQTT设备" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="26" y="317" width="135" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-7" value="解析MQTT数据" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="260" y="317" width="137" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-8" value="转换统一数据" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="459" y="268" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-9" value="转发至云端" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="679" y="317" width="112" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-10" value="云平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="841" y="317" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-11" value="本地SCADA" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="453" y="367" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-12" value="配置" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-1" target="Dv5uqtLoIApdO2Emi0f2-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-13" value="监控" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-1" target="Dv5uqtLoIApdO2Emi0f2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-14" value="上报" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-4" target="Dv5uqtLoIApdO2Emi0f2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-15" value="上报" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-6" target="Dv5uqtLoIApdO2Emi0f2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.13;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-5" target="Dv5uqtLoIApdO2Emi0f2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.13;entryY=0.99;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-7" target="Dv5uqtLoIApdO2Emi0f2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.06;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-8" target="Dv5uqtLoIApdO2Emi0f2-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-9" target="Dv5uqtLoIApdO2Emi0f2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-20" value="订阅" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.06;entryY=1;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-11" target="Dv5uqtLoIApdO2Emi0f2-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
