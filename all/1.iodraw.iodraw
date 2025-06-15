@@ -1,9 +1,125 @@
 <mxfile host="" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="7Kkos_SrbErLt3CNiZEL">
-    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-1" value="系统管理员" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="999" y="110" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-2" value="管理网关配置" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="827" y="232" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-3" value="查看系统状态" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="232" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-4" value="更新网关固件" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1183" y="232" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-5" value="传感器设备" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="110" width="142" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-6" value="接收设备数据" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1529" y="232" width="127" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-7" value="云平台" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1363" y="110" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-8" value="处理云指令" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1361" y="232" width="112" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-9" value="数据预处理" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1449" y="331" width="112" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-10" value="协议转换" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1457" y="453" width="96" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-11" value="本地应用" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="552" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-12" value="云平台" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="552" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-13" value="本地用户" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="331" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-14" value="提供本地API" style="rounded=1;arcSize=20;strokeWidth=2;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="1268" y="453" width="118" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-15" value="配置参数" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-1" target="EDLFNfV4zuNiBZMrKbep-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-16" value="监控状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-1" target="EDLFNfV4zuNiBZMrKbep-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-17" value="固件升级" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-1" target="EDLFNfV4zuNiBZMrKbep-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1247" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-18" value="上传数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-5" target="EDLFNfV4zuNiBZMrKbep-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-19" value="下发指令" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-7" target="EDLFNfV4zuNiBZMrKbep-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.89;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-6" target="EDLFNfV4zuNiBZMrKbep-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1593" y="306" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.11;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-8" target="EDLFNfV4zuNiBZMrKbep-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1417" y="306" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-9" target="EDLFNfV4zuNiBZMrKbep-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.83;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-10" target="EDLFNfV4zuNiBZMrKbep-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1421" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-10" target="EDLFNfV4zuNiBZMrKbep-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1515" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-25" value="查询数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-13" target="EDLFNfV4zuNiBZMrKbep-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDLFNfV4zuNiBZMrKbep-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.46;entryY=0;rounded=0;fontFamily=宋体;" edge="1" parent="1" source="EDLFNfV4zuNiBZMrKbep-14" target="EDLFNfV4zuNiBZMrKbep-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1327" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
