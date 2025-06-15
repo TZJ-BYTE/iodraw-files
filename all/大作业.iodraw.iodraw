@@ -643,6 +643,144 @@
         <mxCell id="Dv5uqtLoIApdO2Emi0f2-205" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=bottom;" vertex="1" parent="Dv5uqtLoIApdO2Emi0f2-203">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-206" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="1102" y="2540" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-207" value="Initializing" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1063" y="2604" width="91" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-208" value="Connecting" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1061" y="2712" width="96" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-209" value="Connected" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="982" y="2820" width="92" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-210" value="Processing" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="961" y="2928" width="231" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-211" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry x="113" y="46" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-212" value="DataFiltering" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry x="65" y="135" width="109" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-213" value="ProtocolConversion" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry x="43" y="268" width="153" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-214" value="DataRouting" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry x="68" y="378" width="103" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-215" value="" style="curved=1;startArrow=none;;exitX=0.48;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="Dv5uqtLoIApdO2Emi0f2-210" source="Dv5uqtLoIApdO2Emi0f2-211" target="Dv5uqtLoIApdO2Emi0f2-212">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-216" value="数据有效" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="Dv5uqtLoIApdO2Emi0f2-210" source="Dv5uqtLoIApdO2Emi0f2-212" target="Dv5uqtLoIApdO2Emi0f2-213">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-217" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="Dv5uqtLoIApdO2Emi0f2-210" source="Dv5uqtLoIApdO2Emi0f2-213" target="Dv5uqtLoIApdO2Emi0f2-214">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-218" value="Error" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="942" y="3451" width="53" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-219" value="Recovering" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1161" y="3559" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-220" value="Maintenance" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1154" y="3667" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-221" value="Updating" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="830" y="3136" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-222" value="Rebooting" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1168" y="3451" width="87" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-223" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="3775" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-224" value="" style="curved=1;startArrow=none;;exitX=0.48;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-206" target="Dv5uqtLoIApdO2Emi0f2-207">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-225" value="加载配置" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-207" target="Dv5uqtLoIApdO2Emi0f2-208">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-226" value="设备认证成功" style="curved=1;startArrow=none;;exitX=0.23;exitY=1;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-208" target="Dv5uqtLoIApdO2Emi0f2-209">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1028" y="2784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-227" value="尝试恢复" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-218" target="Dv5uqtLoIApdO2Emi0f2-219">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="3523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-228" value="恢复失败" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-219" target="Dv5uqtLoIApdO2Emi0f2-220">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-229" value="收到固件更新指令" style="curved=1;startArrow=none;;exitX=0;exitY=0.95;entryX=0.51;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-209" target="Dv5uqtLoIApdO2Emi0f2-221">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="871" y="2892" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-230" value="更新完成" style="curved=1;startArrow=none;;exitX=0.68;exitY=0.99;entryX=0.02;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-221" target="Dv5uqtLoIApdO2Emi0f2-222">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1081" y="3415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-231" value="" style="curved=1;startArrow=none;;exitX=0.68;exitY=0;entryX=1;entryY=1;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-222" target="Dv5uqtLoIApdO2Emi0f2-208">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1258" y="3415" />
+              <mxPoint x="1258" y="2784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-232" value="人工干预" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.52;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-220" target="Dv5uqtLoIApdO2Emi0f2-223">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-233" value="收到传感器数据" style="curved=1;startArrow=none;;exitX=0.67;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-209" target="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="2892" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-234" value="数据处理异常" style="curved=1;startArrow=none;;exitX=0.1;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-210" target="Dv5uqtLoIApdO2Emi0f2-218">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="3415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-235" value="恢复成功" style="curved=1;startArrow=none;;exitX=0.9;exitY=0;entryX=1;entryY=0.77;rounded=0;" edge="1" parent="1" source="Dv5uqtLoIApdO2Emi0f2-219" target="Dv5uqtLoIApdO2Emi0f2-210">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1325" y="3523" />
+              <mxPoint x="1325" y="3415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
