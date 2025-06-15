@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dv5uqtLoIApdO2Emi0f2-58" value="[参与者]&#xa;- 管理员&#xa;- 物联网设备（传感器/执行器）&#xa;- 云平台&#xa;- 维护人员&#xa;&#xa;&#xa;[用例]&#xa;1. 配置网关参数（管理员）&#xa;2. 监控实时数据（管理员）&#xa;3. 设备注册认证（管理员）&#xa;4. 数据采集处理（&lt;&lt;include&gt;&gt; 物联网设备）&#xa;5. 协议转换（&lt;&lt;include&gt;&gt; 物联网设备）&#xa;6. 数据加密传输（&lt;&lt;extend&gt;&gt; 云平台）&#xa;7. 固件更新（维护人员）&#xa;8. 异常告警通知（&lt;&lt;extend&gt;&gt; 管理员）&#xa;&#xa;&#xa;[关系说明]&#xa;- 管理员可执行核心配置和监控&#xa;- 物联网设备通过数据采集和协议转换与系统交互&#xa;- 云平台接收处理后的数据，在敏感数据时触发加密&#xa;- 维护人员负责系统维护" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="110" width="300" height="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
