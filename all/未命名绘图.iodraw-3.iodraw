@@ -1,0 +1,91 @@
+<mxfile host="" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="iNfQEZG15GL-ypfn1fpf">
+    <mxGraphModel dx="607" dy="-2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-1" value="温度传感器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="830" y="3810" width="150" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-2" value="Modbus适配器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="3810" width="150" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="2PnFBCTA1K5xAC0_5GS3-2">
+          <mxGeometry x="70" y="107" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-4" value="数据处理引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="3810" width="150" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="2PnFBCTA1K5xAC0_5GS3-4">
+          <mxGeometry x="70" y="159" width="10" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="2PnFBCTA1K5xAC0_5GS3-4">
+          <mxGeometry x="70" y="397" width="10" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-7" value="云平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="3810" width="150" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-8" value="本地SCADA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="3810" width="150" height="606" as="geometry" />
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-9" value="01 03 00 01 00 02（Modbus RTU帧）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-1" target="2PnFBCTA1K5xAC0_5GS3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1081" y="3917" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-10" value="解析后数据：{sensor:temp01, value:25.6}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-3" target="2PnFBCTA1K5xAC0_5GS3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1429" y="3969" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-11" value="应用规则：if(&quot;value&gt;30&quot;) trigger ALARM" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-5" target="2PnFBCTA1K5xAC0_5GS3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1652" y="4021" />
+              <mxPoint x="1652" y="4051" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-12" value="MQTT发布：gateway01/data {&quot;temp01&quot;:25.6}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-5" target="2PnFBCTA1K5xAC0_5GS3-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1802" y="4103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-13" value="HTTP POST实时数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-5" target="2PnFBCTA1K5xAC0_5GS3-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1902" y="4155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-14" value="MQTT指令：{&quot;set_sampling&quot;:5000}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-7" target="2PnFBCTA1K5xAC0_5GS3-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1803" y="4207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-15" value="更新采样周期为5秒" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-6" target="2PnFBCTA1K5xAC0_5GS3-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1428" y="4259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PnFBCTA1K5xAC0_5GS3-16" value="新配置生效" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="2PnFBCTA1K5xAC0_5GS3-2" target="2PnFBCTA1K5xAC0_5GS3-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1084" y="4311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
