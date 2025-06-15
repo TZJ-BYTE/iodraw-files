@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vt8XgT-kAOMiNwGUYroP-2" value="sequenceDiagram&#xa;    participant Sensor as 温度传感器&#xa;    participant Modbus as Modbus适配器&#xa;    participant Processor as 数据处理引擎&#xa;    participant Cloud as 云平台&#xa;    participant SCADA as 本地SCADA&#xa;    &#xa;    Sensor -&gt;&gt; Modbus： 01 03 00 01 00 02（Modbus RTU帧）&#xa;    activate Modbus&#xa;    Modbus -&gt;&gt; Processor： 解析后数据：{sensor:temp01, value:25.6}&#xa;    deactivate Modbus&#xa;    &#xa;    activate Processor&#xa;    Processor -&gt;&gt; Processor： 应用规则：if(value&gt;30) trigger ALARM&#xa;    Processor -&gt;&gt; Cloud： MQTT发布：gateway01/data {&quot;temp01&quot;:25.6}&#xa;    Processor -&gt;&gt; SCADA： HTTP POST实时数据&#xa;    deactivate Processor&#xa;    &#xa;    Cloud -&gt;&gt; Processor： MQTT指令：{&quot;set_sampling&quot;:5000}&#xa;    activate Processor&#xa;    Processor -&gt;&gt; Modbus： 更新采样周期为5秒&#xa;    Modbus --&gt;&gt; Sensor： 新配置生效&#xa;    deactivate Processor" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1140" width="410" height="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
