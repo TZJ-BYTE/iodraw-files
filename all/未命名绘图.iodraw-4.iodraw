@@ -86,6 +86,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-19" value="旅客" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="590" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-20" value="机票预订系统" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="289" y="712" width="127" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-21" value="航空公司" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="834" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-22" value="支付系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="834" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-23" value="预订请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-19" target="wNFDI2aw5dNbpb3y-HZg-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-24" value="电子机票" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.69;entryY=1;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-20" target="wNFDI2aw5dNbpb3y-HZg-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-25" value="航班数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.35;entryY=1;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-21" target="wNFDI2aw5dNbpb3y-HZg-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-26" value="预订统计" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-20" target="wNFDI2aw5dNbpb3y-HZg-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-27" value="支付确认" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.92;entryY=1;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-22" target="wNFDI2aw5dNbpb3y-HZg-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="487" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-28" value="扣款请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="wNFDI2aw5dNbpb3y-HZg-20" target="wNFDI2aw5dNbpb3y-HZg-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
