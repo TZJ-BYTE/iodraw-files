@@ -1,0 +1,13 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="3i7_jnFyozQXky5JDO8Y">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-1" value="graph TD&#xa;    A[供应商] --&gt;|发货单/货物| B(入库处理)&#xa;    B --&gt; C[库存数据库]&#xa;    D[销售部门] --&gt;|销售订单| E(出库处理)&#xa;    E --&gt; C&#xa;    C --&gt;|库存数据| F(库存报表生成)&#xa;    F --&gt; G[管理层]&#xa;    B --&gt;|缺货通知| H[采购部门]&#xa;    E --&gt;|缺货警告| H&#xa;    H --&gt;|采购订单| A" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="250" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
