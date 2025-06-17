@@ -752,6 +752,90 @@
         <mxCell id="mqpewGwti6ckbfoH6cHH-160" value="n" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="mqpewGwti6ckbfoH6cHH-158">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-161" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="519" y="2570" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-162" value="未启动" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="494" y="2634" width="64" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-163" value="运行中" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="494" y="2741" width="64" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-164" value="受限状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="426" y="2955" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-165" value="专注状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="426" y="2848" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-166" value="锁定状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="707" y="3062" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-167" value="" style="curved=1;startArrow=none;;exitX=0.46;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-161" target="mqpewGwti6ckbfoH6cHH-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-168" value="用户打开APP" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.99;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-162" target="mqpewGwti6ckbfoH6cHH-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-169" value="达到使用时长限制" style="curved=1;startArrow=none;;exitX=-0.01;exitY=0.71;entryX=-0.01;entryY=0.12;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-163" target="mqpewGwti6ckbfoH6cHH-164">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="2812" />
+              <mxPoint x="300" y="2919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-170" value="开启专注模式" style="curved=1;startArrow=none;;exitX=-0.01;exitY=0.9;entryX=0.25;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-163" target="mqpewGwti6ckbfoH6cHH-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="2812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-171" value="时间重置/申请延长通过" style="curved=1;startArrow=none;;exitX=0.99;exitY=0.14;entryX=0.99;entryY=0.92;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-164" target="mqpewGwti6ckbfoH6cHH-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="2919" />
+              <mxPoint x="641" y="2812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-172" value="超出延长时间" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.99;entryX=0;entryY=0.28;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-164" target="mqpewGwti6ckbfoH6cHH-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="3026" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-173" value="专注模式结束" style="curved=1;startArrow=none;;exitX=0.74;exitY=0;entryX=0.49;entryY=0.99;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-165" target="mqpewGwti6ckbfoH6cHH-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="2812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-174" value="专注模式下达到时长限制" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.99;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-165" target="mqpewGwti6ckbfoH6cHH-164">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-175" value="次日自动解锁" style="curved=1;startArrow=none;;exitX=0.5;exitY=0;entryX=0.99;entryY=0.71;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-166" target="mqpewGwti6ckbfoH6cHH-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747" y="2812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-176" value="管理员手动解锁" style="curved=1;startArrow=none;;exitX=0.82;exitY=0;entryX=0.99;entryY=0.66;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-166" target="mqpewGwti6ckbfoH6cHH-164">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="3026" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
