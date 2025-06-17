@@ -140,6 +140,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="wNFDI2aw5dNbpb3y-HZg-29" value="graph TD&#xa;    A[旅客] --&gt; B(预订管理)&#xa;    B --&gt; C[预订数据库]&#xa;    A --&gt; D(支付处理)&#xa;    D --&gt; E[支付网关]&#xa;    F[航空公司] --&gt; G(航班管理)&#xa;    G --&gt; H[航班数据库]&#xa;    G --&gt; B&#xa;    B --&gt;|出票指令| I(票务生成)&#xa;    I --&gt;|电子票| A" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="200" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
