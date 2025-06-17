@@ -137,6 +137,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-27" value="用户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="43" y="680" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-28" value="手机健康管理APP" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="779" width="138" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-29" value="云平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="35" y="967" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.45;exitY=0.99;entryX=0.45;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-27" target="mqpewGwti6ckbfoH6cHH-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="79" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.56;entryY=0.99;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-28" target="mqpewGwti6ckbfoH6cHH-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.45;exitY=1;entryX=0.45;entryY=0;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-28" target="mqpewGwti6ckbfoH6cHH-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="79" y="942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqpewGwti6ckbfoH6cHH-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=0;entryX=0.55;entryY=1;rounded=0;" edge="1" parent="1" source="mqpewGwti6ckbfoH6cHH-29" target="mqpewGwti6ckbfoH6cHH-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99" y="942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
