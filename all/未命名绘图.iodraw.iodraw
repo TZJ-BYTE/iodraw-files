@@ -3402,12 +3402,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QYGcMll91Z4E5MPb2uAh" name="封面">
-    <mxGraphModel dx="2102" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2929" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MB4ZhG_gIBWCu_9dVcmr-2" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="690" height="110" as="geometry" />
+        <mxCell id="MB4ZhG_gIBWCu_9dVcmr-2" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=right;labelPosition=left;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="710" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
