@@ -1422,10 +1422,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LEznU1fjjsd-zSw0rQsA" name="数据字典1">
-    <mxGraphModel dx="946" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-1" value="用户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" width="145" height="456" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-2" value="顾客" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="279" y="55" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-3" value="商家" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="279" y="152" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-4" value="骑手" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="279" y="249" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-5" value="系统管理员" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="346" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-6" value="点餐系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-7" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="_Wsl8Nm3rTk2BIMQc3uB-6" target="_Wsl8Nm3rTk2BIMQc3uB-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="79" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-8" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="_Wsl8Nm3rTk2BIMQc3uB-6" target="_Wsl8Nm3rTk2BIMQc3uB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-9" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=0.98;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="_Wsl8Nm3rTk2BIMQc3uB-6" target="_Wsl8Nm3rTk2BIMQc3uB-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Wsl8Nm3rTk2BIMQc3uB-10" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=0.98;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="_Wsl8Nm3rTk2BIMQc3uB-6" target="_Wsl8Nm3rTk2BIMQc3uB-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
