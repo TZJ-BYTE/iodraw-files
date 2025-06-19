@@ -1616,6 +1616,120 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-1" value="顾客" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="808" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-2" value="商家" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="808" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-2">
+          <mxGeometry x="70" y="163" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-4" value="骑手" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="150" height="808" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-4">
+          <mxGeometry x="70" y="271" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-4">
+          <mxGeometry x="70" y="487" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-7" value="系统管理员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="150" height="808" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-8" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-7">
+          <mxGeometry x="70" y="109" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-9" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-7">
+          <mxGeometry x="70" y="433" width="10" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-10" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="0oc-GKU8r7RoxOLurtEB-7">
+          <mxGeometry x="70" y="649" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-11" value="下单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-1" target="0oc-GKU8r7RoxOLurtEB-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-12" value="发送订单信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-8" target="0oc-GKU8r7RoxOLurtEB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-13" value="确认订单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-3" target="0oc-GKU8r7RoxOLurtEB-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-14" value="分配配送任务" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-8" target="0oc-GKU8r7RoxOLurtEB-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-15" value="确认接收" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-5" target="0oc-GKU8r7RoxOLurtEB-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-16" value="发送配送状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-4" target="0oc-GKU8r7RoxOLurtEB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-17" value="查询订单状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-1" target="0oc-GKU8r7RoxOLurtEB-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-18" value="查询订单状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-9" target="0oc-GKU8r7RoxOLurtEB-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-19" value="回复订单状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-6" target="0oc-GKU8r7RoxOLurtEB-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-20" value="返回订单状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-9" target="0oc-GKU8r7RoxOLurtEB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-21" value="更新菜品信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-2" target="0oc-GKU8r7RoxOLurtEB-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oc-GKU8r7RoxOLurtEB-22" value="确认更新" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="0oc-GKU8r7RoxOLurtEB-10" target="0oc-GKU8r7RoxOLurtEB-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
