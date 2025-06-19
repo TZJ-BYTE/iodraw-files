@@ -3406,9 +3406,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MB4ZhG_gIBWCu_9dVcmr-2" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="50" y="40" width="710" height="110" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
