@@ -1,4 +1,4 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17" pages="2">
   <diagram name="第 1 页" id="OgGqRALDgXIaKUIlrxc5">
     <mxGraphModel dx="946" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,6 +91,194 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="870" y="749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ph3tYG1u1YLkdey59iVj" name="第 2 页">
+    <mxGraphModel dx="946" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVA545Ee5-uzzej15NrO-1" value="顾客" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="507" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-2" value="注册登录" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="242" y="310" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-3" value="浏览菜品" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="242" y="409" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-4" value="下单" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="258" y="507" width="62" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-5" value="查询订单状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="606" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-6" value="评价" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="258" y="704" width="63" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-7" value="商家" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="950" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-8" value="注册登录" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="242" y="803" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-9" value="管理菜品" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="242" y="901" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-10" value="接收和处理订单" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="218" y="1000" width="142" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-11" value="查看销售统计" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1098" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-12" value="骑手" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="1344" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-13" value="注册登录" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="242" y="1197" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-14" value="接收配送任务" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1295" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-15" value="查看订单详情" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1394" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-16" value="更新配送状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1492" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-17" value="系统管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1738" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-18" value="管理用户信息" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1591" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-19" value="维护菜品分类" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1689" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-20" value="监控系统运行状态" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="210" y="1788" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-21" value="处理异常情况" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="226" y="1886" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-1" target="iVA545Ee5-uzzej15NrO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-1" target="iVA545Ee5-uzzej15NrO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-1" target="iVA545Ee5-uzzej15NrO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0.99;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-1" target="iVA545Ee5-uzzej15NrO-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-1" target="iVA545Ee5-uzzej15NrO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.01;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-7" target="iVA545Ee5-uzzej15NrO-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-7" target="iVA545Ee5-uzzej15NrO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-7" target="iVA545Ee5-uzzej15NrO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1024" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-7" target="iVA545Ee5-uzzej15NrO-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.01;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-12" target="iVA545Ee5-uzzej15NrO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-12" target="iVA545Ee5-uzzej15NrO-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-12" target="iVA545Ee5-uzzej15NrO-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-12" target="iVA545Ee5-uzzej15NrO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1516" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0.01;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-17" target="iVA545Ee5-uzzej15NrO-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-17" target="iVA545Ee5-uzzej15NrO-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0.99;entryX=0;entryY=0.48;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-17" target="iVA545Ee5-uzzej15NrO-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVA545Ee5-uzzej15NrO-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="iVA545Ee5-uzzej15NrO-17" target="iVA545Ee5-uzzej15NrO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="1910" />
             </Array>
           </mxGeometry>
         </mxCell>
