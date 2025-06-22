@@ -120,6 +120,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-1" value="快递系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="518" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-2" value="订单处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="45" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-3" value="支付处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="69" y="167" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-4" value="物流管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="167" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-5" value="客户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="231" y="314" width="93" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-6" value="快递员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="314" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-7" value="寄件请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.58;entryY=1;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-5" target="YuXBYS9w3mOc53bAaSwE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-8" value="支付请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.67;entryY=0;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-2" target="YuXBYS9w3mOc53bAaSwE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-9" value="支付结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=0;entryX=0;entryY=1;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-3" target="YuXBYS9w3mOc53bAaSwE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-10" value="订单数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-2" target="YuXBYS9w3mOc53bAaSwE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-11" value="物流状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.76;entryY=0;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-4" target="YuXBYS9w3mOc53bAaSwE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="338" y="241" />
+              <mxPoint x="338" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-12" value="位置更新" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=0;entryX=0.5;entryY=1;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-6" target="YuXBYS9w3mOc53bAaSwE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuXBYS9w3mOc53bAaSwE-13" value="派送任务" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.67;entryY=0;rounded=0;" edge="1" parent="1" source="YuXBYS9w3mOc53bAaSwE-4" target="YuXBYS9w3mOc53bAaSwE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="241" />
+              <mxPoint x="518" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
