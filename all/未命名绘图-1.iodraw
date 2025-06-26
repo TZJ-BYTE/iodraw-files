@@ -132,8 +132,8 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-42" value="监护系统运行状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="850" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QJj7SQbi6Qh07R2w67Pp-43" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="730" width="60" height="30" as="geometry" />
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-43" value="处理异常情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="915" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
