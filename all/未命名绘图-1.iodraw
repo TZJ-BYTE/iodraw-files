@@ -96,7 +96,10 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-29" value="浏览菜品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="365" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QJj7SQbi6Qh07R2w67Pp-30" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-30" value="下单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-31" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
