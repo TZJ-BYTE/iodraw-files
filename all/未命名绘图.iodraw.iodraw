@@ -288,6 +288,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="dRyrYvvOHycgBxC5Qnet-77" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dRyrYvvOHycgBxC5Qnet-68">
+          <mxGeometry x="-0.7015" y="-21" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dRyrYvvOHycgBxC5Qnet-69" value="个人信息修改, 留言回复" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0;entryX=0.01;entryY=0.9;rounded=0;" edge="1" parent="dRyrYvvOHycgBxC5Qnet-60" source="dRyrYvvOHycgBxC5Qnet-64" target="dRyrYvvOHycgBxC5Qnet-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
