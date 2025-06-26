@@ -21,6 +21,9 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-3" value="外卖送餐系统用例图" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="310" width="570" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
