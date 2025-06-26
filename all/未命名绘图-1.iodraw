@@ -144,10 +144,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QJj7SQbi6Qh07R2w67Pp-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="QJj7SQbi6Qh07R2w67Pp-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="765" as="sourcePoint" />
             <mxPoint x="110" y="715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="650" />
+              <mxPoint x="360" y="650" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
