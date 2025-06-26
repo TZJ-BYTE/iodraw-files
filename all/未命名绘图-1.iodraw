@@ -33,6 +33,9 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="410" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QJj7SQbi6Qh07R2w67Pp-8" target="QJj7SQbi6Qh07R2w67Pp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="770" width="30" height="60" as="geometry" />
         </mxCell>
@@ -43,7 +46,7 @@
           <mxGeometry x="755" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-11" value="系统管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="745" y="840" width="60" height="30" as="geometry" />
+          <mxGeometry x="745" y="860" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
