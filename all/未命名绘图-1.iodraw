@@ -27,6 +27,9 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-5" value="顾客" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="25" y="490" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="770" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
