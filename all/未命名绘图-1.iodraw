@@ -43,7 +43,7 @@
           <mxGeometry x="755" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-11" value="系统管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="745" y="860" width="60" height="30" as="geometry" />
+          <mxGeometry x="745" y="850" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
