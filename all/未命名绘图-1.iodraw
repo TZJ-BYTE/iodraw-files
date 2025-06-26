@@ -61,6 +61,9 @@
           <mxGeometry x="360" y="620" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-19" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="700" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
