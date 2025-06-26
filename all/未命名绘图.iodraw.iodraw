@@ -1,11 +1,11 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="1breniaKHL7IbCSIw2bY">
-    <mxGraphModel dx="2399" dy="2171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dRyrYvvOHycgBxC5Qnet-1" value="Level 1 - 足球队联盟数据库管理系统" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="-260" width="2597" height="1374" as="geometry" />
+          <mxGeometry x="20" y="20" width="2597" height="1374" as="geometry" />
         </mxCell>
         <mxCell id="dRyrYvvOHycgBxC5Qnet-2" value="P6 [审核管理]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="dRyrYvvOHycgBxC5Qnet-1">
           <mxGeometry x="43" y="830" width="299" height="461" as="geometry" />
