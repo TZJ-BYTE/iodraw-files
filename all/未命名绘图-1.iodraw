@@ -105,7 +105,10 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-32" value="评价" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="555" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QJj7SQbi6Qh07R2w67Pp-33" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-33" value="注册登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-34" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
