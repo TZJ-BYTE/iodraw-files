@@ -27,14 +27,6 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-5" value="顾客" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="25" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QJj7SQbi6Qh07R2w67Pp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QJj7SQbi6Qh07R2w67Pp-6" target="QJj7SQbi6Qh07R2w67Pp-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="82" y="800" />
-              <mxPoint x="82" y="740" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="770" width="30" height="60" as="geometry" />
         </mxCell>
@@ -142,6 +134,12 @@
         </mxCell>
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-43" value="处理异常情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="915" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="440" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
