@@ -120,6 +120,12 @@
         <mxCell id="QJj7SQbi6Qh07R2w67Pp-38" value="查看订单详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="425" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-39" value="更新配送状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-40" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
