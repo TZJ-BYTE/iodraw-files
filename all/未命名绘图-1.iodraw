@@ -144,6 +144,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="QJj7SQbi6Qh07R2w67Pp-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="440" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
