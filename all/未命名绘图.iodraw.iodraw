@@ -319,6 +319,7 @@
         <mxCell id="dRyrYvvOHycgBxC5Qnet-73" value="球员注册结果, 比赛记录状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.57;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="dRyrYvvOHycgBxC5Qnet-60" source="dRyrYvvOHycgBxC5Qnet-62" target="dRyrYvvOHycgBxC5Qnet-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="350" y="216" />
               <mxPoint x="97" y="314" />
             </Array>
           </mxGeometry>
