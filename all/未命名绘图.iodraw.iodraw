@@ -284,16 +284,14 @@
         <mxCell id="dRyrYvvOHycgBxC5Qnet-68" value="球队信息更新, 球员注册, 比赛记录" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0.01;entryY=0.59;rounded=0;" edge="1" parent="dRyrYvvOHycgBxC5Qnet-60" source="dRyrYvvOHycgBxC5Qnet-63" target="dRyrYvvOHycgBxC5Qnet-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="406" />
-              <mxPoint x="70" y="456" />
-              <mxPoint x="430" y="326" />
+              <mxPoint x="260" y="314" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dRyrYvvOHycgBxC5Qnet-69" value="个人信息修改, 留言回复" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0;entryX=0.01;entryY=0.9;rounded=0;" edge="1" parent="dRyrYvvOHycgBxC5Qnet-60" source="dRyrYvvOHycgBxC5Qnet-64" target="dRyrYvvOHycgBxC5Qnet-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="326" />
+              <mxPoint x="610" y="314" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -328,7 +326,7 @@
         <mxCell id="dRyrYvvOHycgBxC5Qnet-74" value="球迷留言通知, 个人信息更新结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.65;entryX=0.26;entryY=0;rounded=0;" edge="1" parent="dRyrYvvOHycgBxC5Qnet-60" source="dRyrYvvOHycgBxC5Qnet-62" target="dRyrYvvOHycgBxC5Qnet-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="336" />
+              <mxPoint x="436" y="314" />
             </Array>
           </mxGeometry>
         </mxCell>
