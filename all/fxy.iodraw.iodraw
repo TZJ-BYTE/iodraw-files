@@ -787,6 +787,92 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="195" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-2" value="新生" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="177" y="84" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-3" value="在籍" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="177" y="192" width="49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-4" value="休学" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-5" value="退学" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="177" y="300" width="49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-6" value="毕业" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="282" y="300" width="49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-7" value="肄业" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="412" y="300" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-8" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="300" y="408" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-9" value="" style="curved=1;startArrow=none;;exitX=0.46;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-1" target="MiKIDQYEm4ArQLj0JrSP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-10" value="完成注册" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-2" target="MiKIDQYEm4ArQLj0JrSP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-11" value="申请休学" style="curved=1;startArrow=none;;exitX=0;exitY=0.71;entryX=0.2;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-3" target="MiKIDQYEm4ArQLj0JrSP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-12" value="申请复学" style="curved=1;startArrow=none;;exitX=0.78;exitY=0;entryX=0;entryY=0.9;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-4" target="MiKIDQYEm4ArQLj0JrSP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-13" value="申请退学" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-3" target="MiKIDQYEm4ArQLj0JrSP-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-14" value="通过所有课程" style="curved=1;startArrow=none;;exitX=1;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-3" target="MiKIDQYEm4ArQLj0JrSP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-15" value="未通过所有课程" style="curved=1;startArrow=none;;exitX=1;exitY=0.66;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-3" target="MiKIDQYEm4ArQLj0JrSP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-16" value="注销学籍" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=-0.04;entryY=0.29;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-5" target="MiKIDQYEm4ArQLj0JrSP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-17" value="存档" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.46;entryY=0;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-6" target="MiKIDQYEm4ArQLj0JrSP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MiKIDQYEm4ArQLj0JrSP-18" value="存档" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.96;entryY=0.33;rounded=0;" edge="1" parent="1" source="MiKIDQYEm4ArQLj0JrSP-7" target="MiKIDQYEm4ArQLj0JrSP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
