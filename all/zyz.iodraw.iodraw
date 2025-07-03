@@ -4,37 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zXrPUidSfO0NUllvcflL-1" value="ExternalEntities" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="242" height="415" as="geometry" />
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-2" value="旅行社" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zXrPUidSfO0NUllvcflL-1">
-          <mxGeometry x="75" y="46" width="108" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-3" value="飞机票预订系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zXrPUidSfO0NUllvcflL-1">
-          <mxGeometry x="43" y="191" width="172" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-4" value="旅客" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zXrPUidSfO0NUllvcflL-1">
-          <mxGeometry x="83" y="337" width="93" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-5" value="订票单" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0.43;entryY=0.01;rounded=0;" edge="1" parent="zXrPUidSfO0NUllvcflL-1" source="zXrPUidSfO0NUllvcflL-2" target="zXrPUidSfO0NUllvcflL-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="92" y="143" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-6" value="机票" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="zXrPUidSfO0NUllvcflL-1" source="zXrPUidSfO0NUllvcflL-3" target="zXrPUidSfO0NUllvcflL-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zXrPUidSfO0NUllvcflL-7" value="帐单" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0.01;entryX=0.63;entryY=1;rounded=0;" edge="1" parent="zXrPUidSfO0NUllvcflL-1" source="zXrPUidSfO0NUllvcflL-3" target="zXrPUidSfO0NUllvcflL-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="171" y="143" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
