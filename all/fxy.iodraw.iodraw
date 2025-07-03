@@ -275,6 +275,125 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-32" value="学生管理系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="477" width="472" height="612" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-33" value="外部实体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="330" width="342" height="612" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-34" value="管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="355" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-35" value="教师" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="563" y="868" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-36" value="学生" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="635" y="624" width="93" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-37" value="学生信息管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="143" y="502" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-38" value="课程管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="159" y="746" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-39" value="成绩管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1015" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-40" value="系统管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1015" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-41" value="创建/修改/删除" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=1;entryY=0.26;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-34" target="RueTH2FwmYpzKMQ4Zlkd-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="441" />
+              <mxPoint x="637" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-42" value="管理反馈" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.32;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-37" target="RueTH2FwmYpzKMQ4Zlkd-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="752" y="477" />
+              <mxPoint x="752" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-43" value="课程分配" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.32;entryX=0.61;entryY=1;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-35" target="RueTH2FwmYpzKMQ4Zlkd-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-44" value="成绩录入" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.25;entryY=0;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-35" target="RueTH2FwmYpzKMQ4Zlkd-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="942" />
+              <mxPoint x="77" y="979" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-45" value="课程安排" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0;entryY=0.36;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-38" target="RueTH2FwmYpzKMQ4Zlkd-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-46" value="成绩统计" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=1;entryY=0.83;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-39" target="RueTH2FwmYpzKMQ4Zlkd-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281" y="979" />
+              <mxPoint x="753" y="942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-47" value="信息查询" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.36;entryX=0.59;entryY=1;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-36" target="RueTH2FwmYpzKMQ4Zlkd-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-48" value="课程查询" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=1;entryY=0.2;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-36" target="RueTH2FwmYpzKMQ4Zlkd-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="566" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-49" value="成绩查询" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0.39;entryY=0;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-36" target="RueTH2FwmYpzKMQ4Zlkd-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="709" y="710" />
+              <mxPoint x="709" y="942" />
+              <mxPoint x="131" y="979" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-50" value="学生信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.4;exitY=1;entryX=0;entryY=0.38;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-37" target="RueTH2FwmYpzKMQ4Zlkd-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-51" value="课程信息" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.27;entryX=0.38;entryY=1;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-38" target="RueTH2FwmYpzKMQ4Zlkd-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RueTH2FwmYpzKMQ4Zlkd-52" value="成绩信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=0;entryX=1;entryY=1;rounded=0;" edge="1" parent="1" source="RueTH2FwmYpzKMQ4Zlkd-39" target="RueTH2FwmYpzKMQ4Zlkd-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="979" />
+              <mxPoint x="798" y="942" />
+              <mxPoint x="798" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
