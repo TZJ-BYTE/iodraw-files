@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram name="第 1 页" id="uCNDwI873ujLRVfq5mOz">
     <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,6 +246,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-1" value="系统核心处理" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="1467" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-2" value="用户认证模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="43" y="46" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-3" value="作家管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="249" y="46" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-4" value="作品管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="456" y="46" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-5" value="稿件审核模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="663" y="46" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-6" value="读者服务模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="870" y="46" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-7" value="系统管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="1077" y="46" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="OX5wpnWAXsPtAtvS6-Xh-8" value="数据存储模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="OX5wpnWAXsPtAtvS6-Xh-1">
+          <mxGeometry x="1283" y="46" width="157" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f4ot7Tu0QiwEYdyKA8HO" name="第 3 页">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
