@@ -208,6 +208,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-1" value="外部实体" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="784" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-2" value="作家" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zOGncP6NgiIa_GnJ4gXD-1">
+          <mxGeometry x="43" y="46" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-3" value="编辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zOGncP6NgiIa_GnJ4gXD-1">
+          <mxGeometry x="187" y="46" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-4" value="管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zOGncP6NgiIa_GnJ4gXD-1">
+          <mxGeometry x="331" y="46" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-5" value="读者" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zOGncP6NgiIa_GnJ4gXD-1">
+          <mxGeometry x="490" y="46" width="93" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-6" value="出版机构" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zOGncP6NgiIa_GnJ4gXD-1">
+          <mxGeometry x="633" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-7" value="外部实体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="854" y="58" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-8" value="作家管理系统" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="854" y="217" width="127" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-9" value="输入/输出" style="curved=1;startArrow=none;endArrow=block;exitX=0.4;exitY=0.99;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="zOGncP6NgiIa_GnJ4gXD-7" target="zOGncP6NgiIa_GnJ4gXD-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="869" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOGncP6NgiIa_GnJ4gXD-10" value="输入/输出" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0.6;entryY=0.99;rounded=0;" edge="1" parent="1" source="zOGncP6NgiIa_GnJ4gXD-8" target="zOGncP6NgiIa_GnJ4gXD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
