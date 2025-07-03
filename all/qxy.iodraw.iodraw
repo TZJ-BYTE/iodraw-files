@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram name="第 1 页" id="_D1R1do2NIyXH_HhIzdG">
     <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,6 +294,32 @@
               <mxPoint x="731" y="407" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cjwID431b1KKa66pRqtX" name="第 3 页">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-1" value="查询服务模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-2" value="成绩管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="104" width="129" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-3" value="基础数据管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="144" y="189" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-4" value="系统管理模块" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="273" width="409" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-5" value="权限管理子模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="7LF-o-yat_J74OP2hRjJ-4">
+          <mxGeometry x="43" y="46" width="145" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7LF-o-yat_J74OP2hRjJ-6" value="用户管理子模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="7LF-o-yat_J74OP2hRjJ-4">
+          <mxGeometry x="238" y="46" width="144" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
