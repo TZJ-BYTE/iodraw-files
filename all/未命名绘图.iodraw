@@ -2653,23 +2653,8 @@
         <mxCell id="piHMRtONLeBLhXFwQE-D-106" value="判断支付结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="119" y="794" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-107" value="订单生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="916" width="124" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-108" value="支付重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="194" y="916" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-109" value="商家接单" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1014" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-110" value="骑手接单" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1113" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-111" value="骑手取餐" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1212" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-112" value="骑手配送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1310" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-113" value="用户收货" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="1409" width="124" height="49" as="geometry" />
@@ -2717,11 +2702,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-123" value="成功" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-106" target="piHMRtONLeBLhXFwQE-D-107">
+        <mxCell id="piHMRtONLeBLhXFwQE-D-123" value="成功" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="82" y="879" />
             </Array>
+            <mxPoint x="82" y="916" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-124" value="失败" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.31;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-106" target="piHMRtONLeBLhXFwQE-D-108">
@@ -2738,29 +2724,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-107" target="piHMRtONLeBLhXFwQE-D-109">
+        <mxCell id="piHMRtONLeBLhXFwQE-D-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="piHMRtONLeBLhXFwQE-D-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-109" target="piHMRtONLeBLhXFwQE-D-110">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-110" target="piHMRtONLeBLhXFwQE-D-111">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-129" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-111" target="piHMRtONLeBLhXFwQE-D-112">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-112" target="piHMRtONLeBLhXFwQE-D-113">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="82" y="1359" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-113" target="piHMRtONLeBLhXFwQE-D-114">
