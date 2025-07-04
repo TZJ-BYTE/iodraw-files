@@ -1,4 +1,12 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="24.7.17" pages="9">
+  <diagram id="6qVHg6aulWqlYi_k0Bss" name="封面">
+    <mxGraphModel dx="1413" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="用例图" id="cIcfRvAwV6NlVCt5qJYS">
     <mxGraphModel dx="3067" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -792,10 +800,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-132" value="派单信息" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=1;entryY=0.33;rounded=0;" edge="1" parent="wlVPt3sQZBcKwF1Jsj1d-104" source="wlVPt3sQZBcKwF1Jsj1d-115" target="wlVPt3sQZBcKwF1Jsj1d-116">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1340" y="121" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-133" value="接单状态" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.41;entryX=0;entryY=0.61;rounded=0;" edge="1" parent="wlVPt3sQZBcKwF1Jsj1d-104" source="wlVPt3sQZBcKwF1Jsj1d-116" target="wlVPt3sQZBcKwF1Jsj1d-115">
@@ -806,11 +815,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-134" value="状态更新" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.02;entryY=0;rounded=0;" edge="1" parent="wlVPt3sQZBcKwF1Jsj1d-104" source="wlVPt3sQZBcKwF1Jsj1d-115" target="wlVPt3sQZBcKwF1Jsj1d-107">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0237" y="-11" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1286" y="121" />
               <mxPoint x="1286" y="384" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-135" value="骑手位置" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=-0.01;entryY=0.36;rounded=0;" edge="1" parent="wlVPt3sQZBcKwF1Jsj1d-104" source="wlVPt3sQZBcKwF1Jsj1d-115" target="wlVPt3sQZBcKwF1Jsj1d-111">
@@ -2302,14 +2312,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="6qVHg6aulWqlYi_k0Bss" name="封面">
-    <mxGraphModel dx="1413" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
