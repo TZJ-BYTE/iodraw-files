@@ -910,9 +910,6 @@
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-153" value="物流信息库" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="354" y="2924" width="112" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="wlVPt3sQZBcKwF1Jsj1d-154" value="用户注册/登录" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
-          <mxGeometry x="934" y="2689" width="135" height="34" as="geometry" />
-        </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-155" value="农产品发布" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
           <mxGeometry x="260" y="2689" width="111" height="34" as="geometry" />
         </mxCell>
@@ -925,18 +922,20 @@
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-158" value="数据统计分析" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
           <mxGeometry x="1444" y="2568" width="127" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="wlVPt3sQZBcKwF1Jsj1d-159" value="提交注册信息" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="wlVPt3sQZBcKwF1Jsj1d-146" target="wlVPt3sQZBcKwF1Jsj1d-154">
+        <mxCell id="wlVPt3sQZBcKwF1Jsj1d-159" value="提交注册信息" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="wlVPt3sQZBcKwF1Jsj1d-146">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1001" y="2645" />
             </Array>
+            <mxPoint x="1001.5" y="2689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wlVPt3sQZBcKwF1Jsj1d-160" value="写入用户数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="wlVPt3sQZBcKwF1Jsj1d-154" target="wlVPt3sQZBcKwF1Jsj1d-150">
+        <mxCell id="wlVPt3sQZBcKwF1Jsj1d-160" value="写入用户数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" target="wlVPt3sQZBcKwF1Jsj1d-150">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1001" y="2766" />
             </Array>
+            <mxPoint x="1001.5" y="2723" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-161" value="浏览/查询需求" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.68;entryY=0;rounded=0;" edge="1" parent="1" source="wlVPt3sQZBcKwF1Jsj1d-146" target="wlVPt3sQZBcKwF1Jsj1d-151">
