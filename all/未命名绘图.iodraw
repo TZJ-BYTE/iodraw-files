@@ -2261,6 +2261,103 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-22" value="订单系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-23" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-24" value="商家" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-25" value="骑手系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-26" value="骑手" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-27" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1160" width="150" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-28" value="推送新订单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-22" target="Jjaj4z_CCDnwHUVN8XIg-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="1267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-29" value="订单提醒" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-23" target="Jjaj4z_CCDnwHUVN8XIg-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="1319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-30" value="确认接单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-24" target="Jjaj4z_CCDnwHUVN8XIg-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="407" y="1371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-31" value="接单确认" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-23" target="Jjaj4z_CCDnwHUVN8XIg-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="1423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-32" value="更新订单状态为&quot;待骑手接单&quot;" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-22" target="Jjaj4z_CCDnwHUVN8XIg-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1479" />
+              <mxPoint x="146" y="1509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-33" value="发送派单请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-22" target="Jjaj4z_CCDnwHUVN8XIg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="1561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-34" value="派单通知" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-25" target="Jjaj4z_CCDnwHUVN8XIg-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="1613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-35" value="接受订单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-26" target="Jjaj4z_CCDnwHUVN8XIg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="1665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-36" value="接单确认" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-25" target="Jjaj4z_CCDnwHUVN8XIg-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="407" y="1717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-37" value="更新订单状态为&quot;配送中&quot;" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-22" target="Jjaj4z_CCDnwHUVN8XIg-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1773" />
+              <mxPoint x="146" y="1803" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-38" value="推送骑手信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-22" target="Jjaj4z_CCDnwHUVN8XIg-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="1855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
