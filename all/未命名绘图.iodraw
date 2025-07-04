@@ -2650,12 +2650,6 @@
         <mxCell id="piHMRtONLeBLhXFwQE-D-105" value="支付订单" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="135" y="696" width="124" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-106" value="判断支付结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="119" y="794" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-108" value="支付重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="194" y="916" width="124" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-98" target="piHMRtONLeBLhXFwQE-D-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -2691,31 +2685,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-105" target="piHMRtONLeBLhXFwQE-D-106">
+        <mxCell id="piHMRtONLeBLhXFwQE-D-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-105">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-123" value="成功" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="82" y="879" />
-            </Array>
-            <mxPoint x="82" y="916" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-124" value="失败" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.31;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-106" target="piHMRtONLeBLhXFwQE-D-108">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="197" y="879" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=-0.01;entryX=0.7;entryY=1;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-108" target="piHMRtONLeBLhXFwQE-D-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="275" y="879" />
-            </Array>
+            <mxPoint x="197" y="794" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-132" value="用户进入系统" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
