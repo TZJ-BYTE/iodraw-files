@@ -662,7 +662,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-104" value="2层：订单处理模块细化" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2510" width="1782" height="503" as="geometry" />
+          <mxGeometry x="90" y="2040" width="1782" height="503" as="geometry" />
         </mxCell>
         <mxCell id="wlVPt3sQZBcKwF1Jsj1d-105" value="用户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="wlVPt3sQZBcKwF1Jsj1d-104">
           <mxGeometry x="1555" y="170" width="80" height="41" as="geometry" />
