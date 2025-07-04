@@ -492,7 +492,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wKT3v8zyFdobghOXAkLD-28" value="1层：系统功能分解" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="20" y="520" width="1612" height="855" as="geometry" />
+          <mxGeometry x="20" y="530" width="1612" height="855" as="geometry" />
         </mxCell>
         <mxCell id="wKT3v8zyFdobghOXAkLD-29" value="用户管理模块" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="wKT3v8zyFdobghOXAkLD-28">
           <mxGeometry x="855" y="569" width="111" height="69" as="geometry" />
