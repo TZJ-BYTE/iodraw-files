@@ -1369,24 +1369,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-195" value="用户仓库" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="391" y="431" width="241" height="52.14814758300781" as="geometry" />
-        </mxCell>
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-199" value="+findUserByUsername() : : User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="O8dz7aP2HwAvDdaxfXms-195">
-          <mxGeometry y="26.148147583007812" width="241" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-200" value="商家仓库" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="431" width="321" height="52.14814758300781" as="geometry" />
-        </mxCell>
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-204" value="+findMerchantsByCategory() : : Merchant[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="O8dz7aP2HwAvDdaxfXms-200">
-          <mxGeometry y="26.148147583007812" width="321" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-205" value="骑手仓库" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="941" y="431" width="248" height="52.14814758300781" as="geometry" />
-        </mxCell>
-        <mxCell id="O8dz7aP2HwAvDdaxfXms-209" value="+findAvailableRiders() : : Rider[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="O8dz7aP2HwAvDdaxfXms-205">
-          <mxGeometry y="26.148147583007812" width="248" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="2LV6KWL-iKUu0j7HjmNu-6" value="用户界面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25.515153364701703;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="527" y="570" width="187" height="137.5151533647017" as="geometry" />
         </mxCell>
