@@ -2656,12 +2656,6 @@
         <mxCell id="piHMRtONLeBLhXFwQE-D-108" value="支付重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="194" y="916" width="124" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-113" value="用户收货" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1409" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-114" value="订单完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1508" width="124" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-98" target="piHMRtONLeBLhXFwQE-D-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -2724,15 +2718,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="piHMRtONLeBLhXFwQE-D-113">
+        <mxCell id="piHMRtONLeBLhXFwQE-D-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="82" y="1359" as="sourcePoint" />
+            <mxPoint x="82" y="1409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="piHMRtONLeBLhXFwQE-D-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="piHMRtONLeBLhXFwQE-D-113" target="piHMRtONLeBLhXFwQE-D-114">
+        <mxCell id="piHMRtONLeBLhXFwQE-D-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="82" y="1458" as="sourcePoint" />
+            <mxPoint x="107" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="piHMRtONLeBLhXFwQE-D-132" value="用户进入系统" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
