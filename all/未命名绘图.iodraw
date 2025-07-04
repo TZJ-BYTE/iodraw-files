@@ -1648,6 +1648,25 @@
         <mxCell id="O8dz7aP2HwAvDdaxfXms-243" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="O8dz7aP2HwAvDdaxfXms-241">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2LV6KWL-iKUu0j7HjmNu-1" value="用户界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="570" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="2LV6KWL-iKUu0j7HjmNu-2" value="商家界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="669" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="2LV6KWL-iKUu0j7HjmNu-3" value="骑手界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="767" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="2LV6KWL-iKUu0j7HjmNu-4" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="2LV6KWL-iKUu0j7HjmNu-1" target="2LV6KWL-iKUu0j7HjmNu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LV6KWL-iKUu0j7HjmNu-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="2LV6KWL-iKUu0j7HjmNu-2" target="2LV6KWL-iKUu0j7HjmNu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
