@@ -2943,17 +2943,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SKry137otHbSSxyQgCgK-1" value="用户&#xa;用户ID, 用户名, 电话" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="40" width="208" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="SKry137otHbSSxyQgCgK-2" value="订单&#xa;订单ID, 用户ID, 状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="341" y="179" width="206" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="SKry137otHbSSxyQgCgK-3" value="创建" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="SKry137otHbSSxyQgCgK-1" target="SKry137otHbSSxyQgCgK-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SKry137otHbSSxyQgCgK-4" value="用户&#xa;用户ID, 用户名, 电话" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="340" y="270" width="208" height="66" as="geometry" />
         </mxCell>
