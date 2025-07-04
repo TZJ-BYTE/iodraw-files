@@ -2506,6 +2506,118 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-64" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-65" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="266" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-66" value="订单系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="466" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-67" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="666" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-68" value="支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="866" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-69" value="商家" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="3130" width="150" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-70" value="申请取消订单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-64" target="Jjaj4z_CCDnwHUVN8XIg-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="3237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-71" value="取消订单请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-65" target="Jjaj4z_CCDnwHUVN8XIg-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="3289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-72" value="检查订单状态" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-66" target="Jjaj4z_CCDnwHUVN8XIg-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="3341" />
+              <mxPoint x="592" y="3371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-73" value="取消订单通知" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-66" target="Jjaj4z_CCDnwHUVN8XIg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="3423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-74" value="订单取消提醒" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-67" target="Jjaj4z_CCDnwHUVN8XIg-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="3475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-75" value="确认取消" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-69" target="Jjaj4z_CCDnwHUVN8XIg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="953" y="3527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-76" value="取消确认" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-67" target="Jjaj4z_CCDnwHUVN8XIg-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="3579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-77" value="更新订单状态为&quot;已取消&quot;" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-66" target="Jjaj4z_CCDnwHUVN8XIg-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="3635" />
+              <mxPoint x="592" y="3665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-78" value="发起退款请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-66" target="Jjaj4z_CCDnwHUVN8XIg-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="3717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-79" value="处理退款" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-68" target="Jjaj4z_CCDnwHUVN8XIg-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="992" y="3769" />
+              <mxPoint x="992" y="3799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-80" value="退款结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-68" target="Jjaj4z_CCDnwHUVN8XIg-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="3851" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-81" value="推送取消结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-66" target="Jjaj4z_CCDnwHUVN8XIg-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="3903" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jjaj4z_CCDnwHUVN8XIg-82" value="显示取消成功和退款进度" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Jjaj4z_CCDnwHUVN8XIg-65" target="Jjaj4z_CCDnwHUVN8XIg-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="3955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
