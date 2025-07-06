@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="6">
   <diagram name="第 1 页" id="yml3s8CzsopwLoXEiVXi">
     <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -850,6 +850,145 @@
         <mxCell id="DuyrQQOfHK1n-EwpQWnd-94" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="DuyrQQOfHK1n-EwpQWnd-92">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QIoD0JTEOEGNgeV1X2mq" name="第 5 页">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="375" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-2" value="可预订" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="350" y="84" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-3" value="已预订" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="350" y="192" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-4" value="已支付" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="179" y="300" width="64" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-5" value="已取消" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="522" y="516" width="64" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-6" value="已改签" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="32" y="408" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-7" value="退票中" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="178" y="408" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-8" value="已乘车" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="408" y="516" width="64" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-9" value="未乘车" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="293" y="516" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-10" value="已退票" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="178" y="516" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-11" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="376" y="601" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-12" value="" style="curved=1;startArrow=none;;exitX=0.52;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-1" target="qYL5fgG_dlSvb1XiVjFo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-13" value="旅客预订" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-2" target="qYL5fgG_dlSvb1XiVjFo-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-14" value="完成支付" style="curved=1;startArrow=none;;exitX=0;exitY=0.79;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-3" target="qYL5fgG_dlSvb1XiVjFo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-15" value="超时未支付" style="curved=1;startArrow=none;;exitX=1;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-3" target="qYL5fgG_dlSvb1XiVjFo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="554" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-16" value="申请改签" style="curved=1;startArrow=none;;exitX=-0.01;exitY=0.98;entryX=0.72;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-4" target="qYL5fgG_dlSvb1XiVjFo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-17" value="申请退票" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-4" target="qYL5fgG_dlSvb1XiVjFo-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-18" value="完成乘车" style="curved=1;startArrow=none;;exitX=0.99;exitY=0.72;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-4" target="qYL5fgG_dlSvb1XiVjFo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-19" value="未乘车" style="curved=1;startArrow=none;;exitX=0.99;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-4" target="qYL5fgG_dlSvb1XiVjFo-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-20" value="改签成功" style="curved=1;startArrow=none;;exitX=0.28;exitY=0;entryX=-0.01;entryY=0.76;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-6" target="qYL5fgG_dlSvb1XiVjFo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-21" value="退票完成" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-7" target="qYL5fgG_dlSvb1XiVjFo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-22" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.98;entryY=0.41;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-5" target="qYL5fgG_dlSvb1XiVjFo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="554" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-23" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.98;entryY=0.22;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-8" target="qYL5fgG_dlSvb1XiVjFo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-24" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=-0.02;entryY=0.22;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-9" target="qYL5fgG_dlSvb1XiVjFo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYL5fgG_dlSvb1XiVjFo-25" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=-0.02;entryY=0.41;rounded=0;" edge="1" parent="1" source="qYL5fgG_dlSvb1XiVjFo-10" target="qYL5fgG_dlSvb1XiVjFo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dcg75A4qsZLUsUnpShQA" name="第 6 页">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
