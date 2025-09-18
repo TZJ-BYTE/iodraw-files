@@ -28,22 +28,22 @@
         <mxCell id="KyV9I1PYe0HHdzVSJweD-113" value="系统变量的配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="276" y="2803" width="173" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-114" value="插件热加载&#xa;抽象基类约束&#xa;零三方依赖" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-114" value="插件热加载&#xa;抽象基类约束&#xa;零三方依赖" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="555" y="2150" width="158" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-115" value="TOML驱动+自研规则引擎&#xa;东方通TongRDS缓存&#xa;配置刷新&amp;lt;5ms" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-115" value="TOML驱动+自研规则引擎&#xa;东方通TongRDS缓存&#xa;配置刷新&amp;lt;5ms" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="515" y="2284" width="237" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-116" value="YAML模板+pydantic校验&#xa;Git本地文件版本管理" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-116" value="YAML模板+pydantic校验&#xa;Git本地文件版本管理" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="517" y="2418" width="232" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-117" value="zipfile+SM4加密打包&#xa;差异算法生成增量包" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-117" value="zipfile+SM4加密打包&#xa;差异算法生成增量包" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="530" y="2535" width="206" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-118" value="FTP over TLS&#xa;银河麒麟vsftpd&#xa;断点续传" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-118" value="FTP over TLS&#xa;银河麒麟vsftpd&#xa;断点续传" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="549" y="2652" width="169" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-119" value="TOML监听器+watchdog&#xa;变量刷新≤500ms&#xa;本地文件事件总线" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-119" value="TOML监听器+watchdog&#xa;变量刷新≤500ms&#xa;本地文件事件总线" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="521" y="2786" width="225" height="84" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-120" value="东方通TongRDS" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
@@ -127,7 +127,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="KyV9I1PYe0HHdzVSJweD-115" target="KyV9I1PYe0HHdzVSJweD-120">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="KyV9I1PYe0HHdzVSJweD-115" target="KyV9I1PYe0HHdzVSJweD-120">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -137,7 +137,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-137" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="KyV9I1PYe0HHdzVSJweD-118" target="KyV9I1PYe0HHdzVSJweD-122">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-137" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="KyV9I1PYe0HHdzVSJweD-118" target="KyV9I1PYe0HHdzVSJweD-122">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
