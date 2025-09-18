@@ -10,22 +10,22 @@
         <mxCell id="KyV9I1PYe0HHdzVSJweD-107" value="数采平台核心模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="2485" width="189" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-108" value="数据服务采集插件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-108" value="数据服务采集插件" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="267" y="2168" width="190" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-109" value="采集服务配置与分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-109" value="采集服务配置与分析" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="259" y="2302" width="206" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-110" value="数据服务配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-110" value="数据服务配置" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="283" y="2427" width="158" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-111" value="工程管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-111" value="工程管理" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="300" y="2544" width="125" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-112" value="工程的上传下载" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-112" value="工程的上传下载" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="276" y="2669" width="173" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-113" value="系统变量的配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-113" value="系统变量的配置" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="276" y="2803" width="173" height="49" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-114" value="插件热加载&#xa;抽象基类约束&#xa;零三方依赖" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -46,13 +46,13 @@
         <mxCell id="KyV9I1PYe0HHdzVSJweD-119" value="TOML监听器+watchdog&#xa;变量刷新≤500ms&#xa;本地文件事件总线" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="521" y="2786" width="225" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-120" value="东方通TongRDS" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-120" value="东方通TongRDS" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="802" y="2291" width="124" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-121" value="银河麒麟OS" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-121" value="银河麒麟OS" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="815" y="2535" width="99" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="KyV9I1PYe0HHdzVSJweD-122" value="银河麒麟vsftpd" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="KyV9I1PYe0HHdzVSJweD-122" value="银河麒麟vsftpd" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="802" y="2658" width="124" height="71" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="KyV9I1PYe0HHdzVSJweD-107" target="KyV9I1PYe0HHdzVSJweD-108">
