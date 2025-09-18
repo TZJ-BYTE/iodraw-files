@@ -164,22 +164,22 @@
           <mxGeometry x="524" y="1127" width="157" height="49" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-197" value="通用标准协议&#xa;Modbus/OPC/SNMP" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="870" y="360" width="198" height="67" as="geometry" />
+          <mxGeometry x="791" y="210" width="198" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-198" value="PLC协议&#xa;西门子/三菱/AB" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="882" y="477" width="175" height="67" as="geometry" />
+          <mxGeometry x="803" y="327" width="175" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-199" value="数据库/脚本&#xa;MySQL/Oracle/Lua" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="871" y="593" width="196" height="67" as="geometry" />
+          <mxGeometry x="792" y="443" width="196" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-200" value="CNC机床&#xa;发那科/西门子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="886" y="710" width="166" height="67" as="geometry" />
+          <mxGeometry x="807" y="560" width="166" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-201" value="智能制造&#xa;机器人/机械臂" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="886" y="826" width="166" height="67" as="geometry" />
+          <mxGeometry x="807" y="676" width="166" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-202" value="综合设备/网关&#xa;RJ45+RS485" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="771" y="933" width="166" height="67" as="geometry" />
+          <mxGeometry x="807" y="793" width="166" height="67" as="geometry" />
         </mxCell>
         <mxCell id="KyV9I1PYe0HHdzVSJweD-203" value="非密网系统" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="532" y="1248" width="140" height="49" as="geometry" />
