@@ -4,8 +4,216 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VAu_KzosnEncFsWTC18t-68" value="```text&#xa;+----------------------------------------------------------+&#xa;|                    软件功能架构图                         |&#xa;+----------------------------------------------------------+&#xa;| ① 用户输入接口层（表现层）                                |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 触摸屏录入界面     |       | 身份识别模块         |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;+----------------------------↕-----------------------------+&#xa;| ② 数据采集与处理层（核心业务层）                          |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 数据采集引擎       |------→| 协议解析插件         |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  ↓                                                    ↑   |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 数据清洗/校验      |------→| 异常数据标记         |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  ↓                                                    ↑   |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 数据聚合/汇总      |------→| 内存缓存（环形队列） |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;+----------------------------↕-----------------------------+&#xa;| ③ 安全与合规模块（绿色）                                  |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 脱敏引擎（n***m）  |       | SM9加密模块          |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;+----------------------------↕-----------------------------+&#xa;| ④ 输出接口层（北向）                                      |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | RESTful + XML      |       | WebSocket推送        |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;+----------------------------↕-----------------------------+&#xa;| ⑤ 系统服务与自检层（守护进程）                            |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 内存泄漏监控       |       | 温度/电压监控        |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  ↓                                                    ↑   |&#xa;|  +=====================================================+  |&#xa;|  | 🔴 硬件独立看门狗（Watchdog）                        |  |&#xa;|  |   ● 监控主线程心跳                                 |  |&#xa;|  |   ● 超时未喂狗 → 立即复位整个系统                  |  |&#xa;|  |   ● 不可屏蔽，独立于操作系统                       |  |&#xa;|  +=====================================================+  |&#xa;+----------------------------↕-----------------------------+&#xa;| ⑥ 扩展点（红色虚线框）                                    |&#xa;|  +--------------------+       +----------------------+   |&#xa;|  | 协议插件热加载     |       | 输出格式自定义       |   |&#xa;|  +--------------------+       +----------------------+   |&#xa;+----------------------------------------------------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="20" y="310" width="440" height="730" as="geometry" />
+        <mxCell id="VAu_KzosnEncFsWTC18t-69" value="软件功能架构图" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="1696" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-70" value="F" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="582" y="1891" width="547" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-71" value="协议插件热加载" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-70">
+          <mxGeometry x="58" y="43" width="174" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-72" value="输出格式自定义" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-70">
+          <mxGeometry x="332" y="43" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-70" source="VAu_KzosnEncFsWTC18t-71" target="VAu_KzosnEncFsWTC18t-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-74" value="A" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="591" y="46" width="529" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-75" value="触摸屏录入界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-74">
+          <mxGeometry x="58" y="43" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-76" value="身份识别模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-74">
+          <mxGeometry x="331" y="43" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-74" source="VAu_KzosnEncFsWTC18t-75" target="VAu_KzosnEncFsWTC18t-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-78" value="B" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="43" y="240" width="1626" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-79" value="数据采集引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="58" y="73" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-80" value="协议解析插件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="316" y="103" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-81" value="数据清洗/校验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="574" y="73" width="166" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-82" value="异常数据标记" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="840" y="103" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-83" value="数据聚合/汇总" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="1097" y="43" width="166" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-84" value="内存缓存（环形队列）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry x="1364" y="73" width="220" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-79" target="VAu_KzosnEncFsWTC18t-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-81" target="VAu_KzosnEncFsWTC18t-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-83" target="VAu_KzosnEncFsWTC18t-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=-0.01;entryX=0.1;entryY=-0.01;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-79" target="VAu_KzosnEncFsWTC18t-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="48" />
+              <mxPoint x="524" y="48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-89" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=-0.01;entryX=0;entryY=0.25;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-81" target="VAu_KzosnEncFsWTC18t-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="48" />
+              <mxPoint x="1047" y="48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.87;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-80" target="VAu_KzosnEncFsWTC18t-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0;entryY=0.88;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-82" target="VAu_KzosnEncFsWTC18t-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1047" y="97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=0.99;entryX=1;entryY=0.74;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-84" target="VAu_KzosnEncFsWTC18t-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314" y="147" />
+              <mxPoint x="1047" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-93" value="C" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="582" y="493" width="548" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-94" value="脱敏引擎（n***m）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-93">
+          <mxGeometry x="58" y="43" width="197" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-95" value="SM9加密模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-93">
+          <mxGeometry x="355" y="43" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-96" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-93" source="VAu_KzosnEncFsWTC18t-94" target="VAu_KzosnEncFsWTC18t-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-97" value="D" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="589" y="687" width="533" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-98" value="RESTful + XML" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-97">
+          <mxGeometry x="58" y="43" width="162" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-99" value="WebSocket推送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-97">
+          <mxGeometry x="320" y="43" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-100" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-97" source="VAu_KzosnEncFsWTC18t-98" target="VAu_KzosnEncFsWTC18t-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-101" value="E" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-69">
+          <mxGeometry x="514" y="881" width="685" height="935" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-102" value="E3 [ ]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="VAu_KzosnEncFsWTC18t-101">
+          <mxGeometry x="314" y="43" width="329" height="766" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-103" value="🔴 硬件独立看门狗（Watchdog）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-102">
+          <mxGeometry x="43" y="71" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-104" value="● 监控主线程心跳" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-102">
+          <mxGeometry x="79" y="280" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-105" value="● 超时未喂狗 → 立即复位整个系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-102">
+          <mxGeometry x="78" y="454" width="188" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-106" value="● 不可屏蔽，独立于操作系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-102">
+          <mxGeometry x="46" y="645" width="253" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-107" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-102" source="VAu_KzosnEncFsWTC18t-103" target="VAu_KzosnEncFsWTC18t-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-108" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-102" source="VAu_KzosnEncFsWTC18t-104" target="VAu_KzosnEncFsWTC18t-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-109" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-102" source="VAu_KzosnEncFsWTC18t-105" target="VAu_KzosnEncFsWTC18t-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-110" value="内存泄漏监控" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-101">
+          <mxGeometry x="58" y="859" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-111" value="温度/电压监控" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-101">
+          <mxGeometry x="396" y="859" width="165" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-101" source="VAu_KzosnEncFsWTC18t-110" target="VAu_KzosnEncFsWTC18t-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-113" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-69" source="VAu_KzosnEncFsWTC18t-74" target="VAu_KzosnEncFsWTC18t-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-69" source="VAu_KzosnEncFsWTC18t-78" target="VAu_KzosnEncFsWTC18t-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-69" source="VAu_KzosnEncFsWTC18t-93" target="VAu_KzosnEncFsWTC18t-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-69" source="VAu_KzosnEncFsWTC18t-97" target="VAu_KzosnEncFsWTC18t-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-69" source="VAu_KzosnEncFsWTC18t-101" target="VAu_KzosnEncFsWTC18t-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAu_KzosnEncFsWTC18t-118" value="E3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="829" y="2390" width="77" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
