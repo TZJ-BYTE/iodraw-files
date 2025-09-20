@@ -33,82 +33,82 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-78" value="B" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="610" y="540" width="1079" height="670" as="geometry" />
+          <mxGeometry x="63" y="540" width="1626" height="680" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-79" value="数据采集引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="38.48831488314883" y="273.24022346368713" width="104.84747847478475" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="58" y="277.3184357541899" width="158" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-80" value="协议解析插件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="209.6949569495695" y="385.53072625698326" width="104.84747847478475" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="316" y="391.2849162011173" width="158" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-81" value="数据清洗/校验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="380.90159901599014" y="273.24022346368713" width="110.15621156211562" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="574" y="277.3184357541899" width="166" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-82" value="异常数据标记" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="557.4169741697417" y="385.53072625698326" width="104.18388683886839" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="840" y="391.2849162011173" width="157" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-83" value="数据聚合/汇总" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="727.960024600246" y="160.94972067039106" width="110.15621156211562" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="1097" y="163.35195530726256" width="166" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-84" value="内存缓存（环形队列）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-78">
-          <mxGeometry x="905.1389913899139" y="273.24022346368713" width="145.99015990159901" height="183.40782122905028" as="geometry" />
+          <mxGeometry x="1364" y="277.3184357541899" width="220" height="186.14525139664804" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-79" target="VAu_KzosnEncFsWTC18t-80">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="176.51537515375153" y="475.3631284916201" />
+              <mxPoint x="266" y="482.4581005586592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-81" target="VAu_KzosnEncFsWTC18t-82">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="524.2373923739237" y="475.3631284916201" />
+              <mxPoint x="790" y="482.4581005586592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-83" target="VAu_KzosnEncFsWTC18t-84">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="871.959409594096" y="254.52513966480447" />
+              <mxPoint x="1314" y="258.32402234636874" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=-0.01;entryX=0.1;entryY=-0.01;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-79" target="VAu_KzosnEncFsWTC18t-81">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="176.51537515375153" y="179.66480446927375" />
-              <mxPoint x="347.7220172201722" y="179.66480446927375" />
+              <mxPoint x="266" y="182.3463687150838" />
+              <mxPoint x="524" y="182.3463687150838" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-89" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=-0.01;entryX=0;entryY=0.25;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-81" target="VAu_KzosnEncFsWTC18t-83">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="524.2373923739237" y="179.66480446927375" />
-              <mxPoint x="694.780442804428" y="179.66480446927375" />
+              <mxPoint x="790" y="182.3463687150838" />
+              <mxPoint x="1047" y="182.3463687150838" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.87;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-80" target="VAu_KzosnEncFsWTC18t-81">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="347.7220172201722" y="475.3631284916201" />
+              <mxPoint x="524" y="482.4581005586592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0;entryY=0.88;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-82" target="VAu_KzosnEncFsWTC18t-83">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="694.780442804428" y="363.07262569832403" />
+              <mxPoint x="1047" y="368.49162011173183" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=0.99;entryX=1;entryY=0.74;rounded=0;" edge="1" parent="VAu_KzosnEncFsWTC18t-78" source="VAu_KzosnEncFsWTC18t-84" target="VAu_KzosnEncFsWTC18t-82">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="871.959409594096" y="550.2234636871508" />
-              <mxPoint x="694.780442804428" y="550.2234636871508" />
+              <mxPoint x="1314" y="558.4357541899441" />
+              <mxPoint x="1047" y="558.4357541899441" />
             </Array>
           </mxGeometry>
         </mxCell>
