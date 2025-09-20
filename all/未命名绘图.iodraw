@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="6DVmzY3bycd93iC30NA1">
-    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-8" value="SELF[&amp;quot;系统服务与自检&amp;quot;]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="400" y="415" width="398" height="104" as="geometry" />
+          <mxGeometry x="10" y="605" width="398" height="104" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-9" value="内存泄漏监控" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-8">
           <mxGeometry x="46" y="43" width="120" height="34" as="geometry" />
@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-12" value="EXT[&amp;quot;扩展点（热插拔）&amp;quot;]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="848" y="415" width="589" height="104" as="geometry" />
+          <mxGeometry x="10" y="709" width="589" height="104" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-13" value="协议插件" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-12">
           <mxGeometry x="46" y="43" width="90" height="34" as="geometry" />
