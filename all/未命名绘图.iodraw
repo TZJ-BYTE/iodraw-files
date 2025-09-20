@@ -94,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-26" value="SEC[&amp;quot;安全与合规模块&amp;quot;]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2209" y="415" width="713" height="104" as="geometry" />
+          <mxGeometry x="10" y="916" width="713" height="104" as="geometry" />
         </mxCell>
         <mxCell id="VAu_KzosnEncFsWTC18t-27" value="脱敏引擎" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="VAu_KzosnEncFsWTC18t-26">
           <mxGeometry x="46" y="43" width="90" height="34" as="geometry" />
